@@ -1,0 +1,16 @@
+com/schema/antlr/model/RowKeyMetaData.class
+com/schema/antlr/builder/ColumnSchemaBuilder.class
+com/schema/antlr/model/HdfsJsonSchema.class
+com/schema/antlr/model/Schema.class
+com/schema/antlr/builder/DynamicPartSchemaBuilder.class
+com/schema/antlr/model/DynamicPartMetaData.class
+com/schema/antlr/builder/HBaseSchemaBuilder.class
+com/schema/antlr/model/Column.class
+com/schema/antlr/builder/ColumnSchemaBuilder$1.class
+com/schema/antlr/builder/HdfsSchemaBuilder.class
+com/schema/antlr/core/SampleMain.class
+com/schema/antlr/model/SchemaType.class
+com/schema/antlr/builder/RowKeySchemaBuilder.class
+com/schema/antlr/builder/ColumnSchemaBuilder$2.class
+com/schema/antlr/model/RowField.class
+com/schema/antlr/builder/HiveSchemaBuilder.class

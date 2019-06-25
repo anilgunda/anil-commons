@@ -1,0 +1,52 @@
+{
+
+  "Schemas": {
+    "Test_Schema": {
+
+      "hbaseTableName": "Test",
+      "rowKeyMetaData": {
+
+        "rowKeySeperator": "|",
+        "rowFields": [{
+
+          "fieldName": "rtin",
+          "hashed": "true",
+          "literal": false,
+          "bitRange": "0-7"
+
+        }, {
+          "fieldName": "fp"
+        }, {
+          "fieldName": "formId",
+          "literal": true,
+          "literalValue": "GSTR1"
+        }, {
+          "fieldName": "rtin"
+        }]
+      },
+      "columnList": [{
+        "columnFamily": "cf1",
+        "columnName": "c1",
+        "dataType": "d1",
+        "defaultValue": "default",
+        "compressionType": "cmp1"
+      }, {
+        "columnFamily": "cf1",
+        "columnName": "inv_<X>",
+        "dataType": "d1",
+        "defaultValue": "default",
+        "compressionType": "cmp1"
+      }, {
+        "columnFamily": "cf1",
+        "json": "{\"a\": {  \"b\": {    \"b1\": {      \"columnFamily\": \"cf1\",      \"columnName\": \"123\",      \"dataType\": \"d1\",      \"defaultValue\": \"default\",      \"compressionType\": \"cmp1\"    },    \"b2\": {      \"columnFamily\": \"cf1\",      \"columnName\": \"12\",      \"dataType\": \"d1\",      \"defaultValue\": \"default\",      \"compressionType\": \"cmp1\"    }  },  \"c\": {    \"columnFamily\": \"cf1\",    \"columnName\": \"1234\",    \"dataType\": \"d1\",    \"defaultValue\": \"default\",    \"compressionType\": \"cmp1\"  }} }"
+
+
+      }],
+      "dynamicPartMetaData": {
+        "dynamicPatSeperator": "|",
+        "dynamicPartNames": ["x1", "x2"]
+      }
+    }
+  }
+
+}

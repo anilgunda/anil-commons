@@ -1,0 +1,28 @@
+{
+
+  "Schemas": {
+    "Test_Schema": {
+
+      "databaseName": "Test",
+      "columnList": [{
+        "columnFamily": "cf1",
+        "columnName": "c1",
+        "dataType": "d1",
+        "defaultValue": "default",
+        "isPartitionColumn": true
+      }, {
+        "columnFamily": "cf1",
+        "columnName": "inv_<X>",
+        "dataType": "d1",
+        "defaultValue": "default",
+        "compressionType": "cmp1"
+      }, {
+        "columnFamily": "cf1",
+        "json": "{\"a\": {  \"b\": {    \"b1\": {      \"columnFamily\": \"cf1\",      \"columnName\": \"123\",      \"dataType\": \"d1\",      \"defaultValue\": \"default\",      \"compressionType\": \"cmp1\"    },    \"b2\": {      \"columnFamily\": \"cf1\",      \"columnName\": \"12\",      \"dataType\": \"d1\",      \"defaultValue\": \"default\",      \"compressionType\": \"cmp1\"    }  },  \"c\": {    \"columnFamily\": \"cf1\",    \"columnName\": \"1234\",    \"dataType\": \"d1\",    \"defaultValue\": \"default\",    \"compressionType\": \"cmp1\"  }} }"
+
+
+      }]
+    }
+  }
+
+}
